@@ -1,0 +1,46 @@
+<html>
+    <head>
+    <title>Consulta de CEP</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="css/style.css" rel="stylesheet">    
+    <script defer src="js/script.js"></script>
+
+</head>
+
+<body>    
+
+    <div class="container"> 
+        <h2>CONSULTA DE CEP:</h2>
+        <form method="get" action=".">
+            <div class="cep">
+                <label>Digite um CEP:
+                <input name="cep" type="text" id="cep" value="" size="10" maxlength="9" onblur="pesquisacep(this.value);" /></label><br/>
+            </div>
+            
+            <button type="button" id="button" onclick="pesquisacep(valor)" >BUSCAR</button>
+         
+            <div class="listform">
+                <label>Rua:
+                <input name="rua" type="text" id="rua"  disabled/></label><br/>            
+                <label>Complemento:
+                <input name="complemento" type="text" id="complemento"  disabled/></label><br/>              
+                <label>Bairro:
+                <input name="bairro" type="text" id="bairro" disabled/></label><br/>            
+                <label>Cidade:
+                <input name="cidade" type="text" id="cidade"  disabled/></label><br/>
+                <label>Estado:
+                <input name="uf" type="text" id="uf"  disabled/></label><br/>           
+                <label>IBGE:
+                <input name="ibge" type="text" id="ibge"  disabled/></label><br/>            
+                <label>Siafi:
+                <input name="siafi" type="text" id="siafi"  disabled/></label><br/>            
+                <label>DDD:
+                <input name="ddd" type="text" id="ddd"  disabled/></label><br/>
+                <label>GIA:
+                <input name="gia" type="text" id="gia"  disabled/></label><br/>
+            </div>    
+        </form>    
+    </div>  
+
+</body>
+</html>
