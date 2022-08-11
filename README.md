@@ -1,6 +1,6 @@
 # Cunsulta de informações dado o CEP
 
-- Projeto realizado por mim em uma seleção de estágio.
+- Projeto realizado feito em uma seleção de estágio.
 
 
 
